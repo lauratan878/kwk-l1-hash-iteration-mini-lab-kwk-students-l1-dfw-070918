@@ -10,7 +10,7 @@ def create_olympics_hash
 end
 
 def add_a_key_value_pair
-  # Imsummer_olympics = {
+  summer_olympics = {
     :Sydney => "2000",
     :Athens => "2004",
     :Beijing => "2008",
