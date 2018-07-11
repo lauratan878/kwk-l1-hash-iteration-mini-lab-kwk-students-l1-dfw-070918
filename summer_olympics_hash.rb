@@ -31,7 +31,8 @@ def iterate_through_hash
     :London => "2012"
   }
   summer_olympics[:Atlanta ] = "1996" 
-  
+  summer_olympics.each do |city, year|
+    puts "The #{city} summer olympics took place in #{year}."
 end
 
 def iterate_through_keys
