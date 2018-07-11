@@ -50,6 +50,7 @@ def iterate_through_keys
   summer_olympics
   
   olympics = []
-  olympics << summer_olympics.keys.upcase 
+  summer_olympics.each do |city, year|
+    olympics << summer_olympics.keys.upcase 
   
 end
