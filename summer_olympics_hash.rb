@@ -47,8 +47,9 @@ def iterate_through_keys
     :London => "2012"
   }
   summer_olympics[:Atlanta ] = "1996" 
-summer_olympics
-summer_olympics.keys 
-olympics = []
-end 
+  summer_olympics
+  
+  olympics = []
+  olympics << summer_olympics.keys.upcase 
+  
 end
